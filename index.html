@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Mi Primer Website</title>
+   <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+   <header class="container-nav">
+
+      <nav class="navbar" role="navigation">
+
+         <a href="#" class="brand">Mi página web</a>
+
+         <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="services.html">Services</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+         </ul>
+
+      </nav>
+
+      <button class="button-menu-toggle">Menu</button>
+
+   </header>
+   <main>
+      <div class="container">
+         
+
+         <div class="box">
+            <h1>Bienvenidos a mi primer Website!</h1>
+         </div>
+         <div class="row">
+            <div class="column">
+               <h2>Intro</h2>
+
+               <p>Soy Carolina, ¡y esta es mi primera página web!</p>
+
+
+               <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+            </div>
+            <div class="column">
+               <h2>Lo que se viene...</h2>
+
+               <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán
+                  a crear una base sólida en el desarrollo web front-end.</p>
+
+            </div>
+         </div>
+      </div>
+      <div class="video-container">
+         <video width="560" height="315" src="Programando Mi Primera Página Web React.js.mp4" controls></video>
+      </div>
+   </main>
+   <footer>
+      <p id="demo"></p>
+
+      <form id="myForm">
+         <label for="email">Correo electrónico:</label>
+         <input type="text" id="email" name="email" required>
+         <button type="submit">Enviar</button>
+         <button onclick="showAlert()" aria-label="Haz click en mí">¡Haz click en mí!</button>
+      </form>
+    
+   </footer>
+   <script src="script.js"></script>
+
+</body>
+
+</html>

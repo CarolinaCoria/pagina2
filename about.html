@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi Primer Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header class="container-nav">
+
+        <nav class="navbar" role="navigation">
+  
+           <a href="#" class="brand">Mi página web</a>
+  
+           <ul class="nav-links">
+  
+              <li><a href="index.html">Home</a></li>
+  
+              <li><a href="about.html">About</a></li>
+  
+              <li><a href="services.html">Services</a></li>
+  
+              <li><a href="contact.html">Contact</a></li>
+  
+           </ul>
+  
+        </nav>
+  
+        <button class="button-menu-toggle">Menu</button>
+  
+     </header>
+     <main>
+     <div class="container">
+        <h1>Acerca de</h1>
+
+        <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre nuestra empresa y los servicios que
+            ofrecemos.</p>
+        <div class="imagenes"> 
+            <img src="1.jpg" alt="Reunión vista desde arriba" />
+    
+            <img src="2.jpg" alt="Ilustracuión de 4 personas" />
+    
+            <img src="3.jpg" alt="Ilustración de 1 persona" />
+        </div>
+     </div>
+      
+     </main>
+     <footer>
+        <p id="demo"></p>
+  
+        <form id="myForm">
+           <label for="email">Correo electrónico:</label>
+           <input type="text" id="email" name="email" required>
+           <button type="submit">Enviar</button>
+           <button onclick="showAlert()" aria-label="Haz click en mí">¡Haz click en mí!</button>
+        </form>
+      
+     </footer>
+    
+
+   
+    <script src="script.js"></script>
+
+</body>
+
+</html>
